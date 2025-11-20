@@ -1,0 +1,100 @@
+@font-face
+{
+font-family: "Caveat";
+src: url(fonte/Caveat-Regular.ttf") format("truetype");
+font-weight: 400;
+}
+@font-face
+{
+font-family: "Caveat";
+src: url(fonte/Caveat-Medium.ttf") format("truetype");
+font-weight: 500;
+}
+@font-face
+{
+font-family: "Caveat";
+src: url(fonte/Caveat-SemiBold.ttf") format("truetype");
+font-weight: 600;
+}
+@font-face
+{
+font-family: "Caveat";
+src: url(fonte/Caveat-Bold.ttf") format("truetype");
+font-weight: 700;
+}
+body 
+{
+background-color:rgb(39, 26, 26);
+} 
+h1 
+{
+color:white;
+width: 400px;
+height: 50px;
+position:relative;
+top: -20px;
+left: 500px;
+}
+h2 
+{
+color:white;
+width: 600px;
+height: 30px;
+}
+P
+{
+color:white;
+background-color:rgba(90, 4, 4, 0.582);
+border: 1px solid rgb(255, 255, 255);
+width: 700px;
+height: 300px;
+}
+.especial 
+{
+    front-size: 25px;
+    front-weight: bold;
+    width: 700px;
+    height: 80px;
+}
+.container
+{
+    position: absolute;
+    top: 335px;
+    left: 100px;
+}
+.hp10 
+{
+   text-align: center;
+   margin-left: 800px;
+   margin-top: -50px;
+}
+.hp10 img
+{
+width: 400px;
+border-radius: 5px;
+}
+.hp10 figcaption
+{
+color: white;
+font-family: "Caveat", cursive;
+}
+
+font-size: 16px;
+margin-top: 8px;
+top: -20px;
+left: -1000px;
+}
+.main
+{
+    position:absolute;
+width: 100%;
+height: 500px;
+}
+.section1
+{
+    front-size: 20px;
+    front-weight: bold;
+    color:white;
+    width: 600px;
+    height: 200px;
+}
